@@ -1,0 +1,507 @@
+[
+  {
+    "_id": "65368c32ed4d545ae2c539ea",
+    "name": "Jery Nicko",
+    "age": 19,
+    "gpa": 3.8,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ]
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539eb",
+    "name": "Budi Doremi",
+    "age": 19,
+    "gpa": 3.6,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ]
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539ec",
+    "name": "Ahmad Dhani",
+    "age": 20,
+    "gpa": 3.7,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ]
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539ed",
+    "name": "Iwan Fals",
+    "age": 21,
+    "gpa": 4,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ]
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539ee",
+    "name": "Raisa Anggiani",
+    "age": 19,
+    "gpa": 3.9,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ]
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539ef",
+    "name": "Dedy Corbuzier",
+    "age": 20,
+    "gpa": 4,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ]
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539f0",
+    "name": "Denny Caknan",
+    "age": 19,
+    "gpa": 3.4,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ]
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539f1",
+    "name": "Rocky G. Luffy",
+    "age": 21,
+    "gpa": 4,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ]
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539f2",
+    "name": "Baskara Putra",
+    "age": 20,
+    "gpa": 3.5,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ]
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539f3",
+    "name": "Keisya Levronka",
+    "age": 19,
+    "gpa": 3.6,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ]
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539f4",
+    "name": "Gita Wiryawan",
+    "age": 20,
+    "gpa": 4,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ]
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539f5",
+    "name": "Ari Lasso",
+    "age": 19,
+    "gpa": 3.7,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ]
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539f6",
+    "name": "Nadin Amizah",
+    "age": 20,
+    "gpa": 3.9,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ]
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539f7",
+    "name": "Tiara Andini",
+    "age": 19,
+    "gpa": 4,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ]
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539f8",
+    "name": "Feby Putri",
+    "age": 19,
+    "gpa": 3.8,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ]
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539f9",
+    "name": "Yura Yunita",
+    "age": 20,
+    "gpa": 3.4,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ]
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539fa",
+    "name": "Raim Laode",
+    "age": 19,
+    "gpa": 3.8,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ]
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539fb",
+    "name": "Fiersa Besari",
+    "age": 19,
+    "gpa": 4,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ]
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539fc",
+    "name": "Taylor Swift",
+    "age": 19,
+    "gpa": 4,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ]
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539fd",
+    "name": "Lalisa",
+    "age": 19,
+    "gpa": 4,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ]
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539fe",
+    "name": "Muhammad Fajar",
+    "age": 20,
+    "gpa": 3.8,
+    "fullTime": true,
+    "registerDate": "2022-07-21T13:15:45.000Z",
+    "graduationDate": null,
+    "courses": [
+      "AdminSis",
+      "Mikrokontroler"
+    ],
+    "address": {
+      "street": "jl. tawangmangu",
+      "city": "Jember",
+      "state": "Indonesia",
+      "zip": "130708"
+    }
+  },
+  {
+    "_id": "65368c32ed4d545ae2c539ff",
+    "name": "Muhammad Alwi",
+    "age": 20,
+    "gpa": 3.8,
+    "fullTime": true,
+    "registerDate": "2022-06-21T14:15:42.000Z",
+    "graduationDate": null,
+    "courses": [
+      "AdminSis",
+      "Mikrokontroler"
+    ],
+    "address": {
+      "street": "jl. ahmad yani",
+      "city": "Jember",
+      "state": "Indonesia",
+      "zip": "130710"
+    }
+  },
+  {
+    "_id": "65368c32ed4d545ae2c53a00",
+    "name": "Yudi Basril",
+    "age": 20,
+    "gpa": 3,
+    "fullTime": true,
+    "registerDate": "2022-04-19T11:15:20.000Z",
+    "graduationDate": null,
+    "courses": [
+      "AdminSis",
+      "Mobile"
+    ],
+    "address": {
+      "street": "jl. baturaden",
+      "city": "Jember",
+      "state": "Indonesia",
+      "zip": "130714"
+    }
+  },
+  {
+    "_id": "65368c32ed4d545ae2c53a03",
+    "name": "Hilda Wiyanti",
+    "age": 19,
+    "gpa": 4,
+    "fullTime": true,
+    "registerDate": "2022-04-15T07:01:05.000Z",
+    "graduationDate": null,
+    "courses": [
+      "AdminSis",
+      "Mikrokontroler",
+      "Jarkom"
+    ],
+    "address": {
+      "street": "jl. werkudoro",
+      "city": "Ponorogo",
+      "state": "Indonesia",
+      "zip": "131412"
+    }
+  },
+  {
+    "_id": "65368c32ed4d545ae2c53a04",
+    "name": "Emilia Malik",
+    "age": 20,
+    "gpa": 3.8,
+    "fullTime": true,
+    "registerDate": "2022-05-11T10:36:45.000Z",
+    "graduationDate": null,
+    "courses": [
+      "AdminSis",
+      "Mikrokontroler"
+    ],
+    "address": {
+      "street": "jl. tawangmangu",
+      "city": "Jember",
+      "state": "Indonesia",
+      "zip": "130708"
+    }
+  },
+  {
+    "_id": "65368c32ed4d545ae2c53a05",
+    "name": "Arvinda Taradika",
+    "age": 19,
+    "gpa": 3.9,
+    "fullTime": true,
+    "registerDate": "2022-05-21T14:15:39.000Z",
+    "graduationDate": null,
+    "courses": [
+      "AdminSis",
+      "Mobile"
+    ],
+    "address": {
+      "street": "jl. kenangan",
+      "city": "Jember",
+      "state": "Indonesia",
+      "zip": "130766"
+    }
+  },
+  {
+    "_id": "65368c32ed4d545ae2c53a06",
+    "name": "Rahmad Santoso",
+    "age": 21,
+    "gpa": 2.5,
+    "fullTime": true,
+    "registerDate": "2022-08-30T19:21:45.000Z",
+    "graduationDate": null,
+    "courses": [
+      "AdminSis",
+      "JarKom"
+    ],
+    "address": {
+      "street": "jl. jembar",
+      "city": "Jember",
+      "state": "Indonesia",
+      "zip": "130712"
+    }
+  },
+  {
+    "_id": "65368c32ed4d545ae2c53a07",
+    "name": "Malika Putri",
+    "age": 20,
+    "gpa": 3.9,
+    "fullTime": true,
+    "registerDate": "2022-06-20T17:15:23.000Z",
+    "graduationDate": null,
+    "courses": [
+      "JarKom",
+      "AdminSis"
+    ],
+    "address": {
+      "street": "jl. ahmad yani",
+      "city": "Jember",
+      "state": "Indonesia",
+      "zip": "130708"
+    }
+  },
+  {
+    "_id": "65368c32ed4d545ae2c53a09",
+    "name": "Buya Yahya",
+    "age": 20,
+    "gpa": 4,
+    "fullTime": true,
+    "registerDate": "2022-06-30T12:15:42.000Z",
+    "graduationDate": null,
+    "courses": [
+      "AdminSis",
+      "Mikrokontroler"
+    ],
+    "address": {
+      "street": "jl. merdeka",
+      "city": "Jakarta",
+      "state": "Indonesia",
+      "zip": "130102"
+    }
+  },
+  {
+    "_id": "65368c32ed4d545ae2c53a0a",
+    "name": "George Salim",
+    "age": 20,
+    "gpa": 3.9,
+    "fullTime": true,
+    "registerDate": "2022-08-21T13:15:45.000Z",
+    "graduationDate": null,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ],
+    "address": {
+      "street": "Fight st.",
+      "city": "New York",
+      "state": "Amerika",
+      "zip": "699009"
+    }
+  },
+  {
+    "_id": "65368c32ed4d545ae2c53a0b",
+    "name": "Dian Cantika",
+    "age": 20,
+    "gpa": 3,
+    "fullTime": true,
+    "registerDate": "2022-06-21T14:20:42.000Z",
+    "graduationDate": null,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ],
+    "address": {
+      "street": "jl. ahmad yani",
+      "city": "Jember",
+      "state": "Indonesia",
+      "zip": "130808"
+    }
+  },
+  {
+    "_id": "65368c32ed4d545ae2c53a0c",
+    "name": "Aldi Semanggi",
+    "age": 20,
+    "gpa": 3.8,
+    "fullTime": true,
+    "registerDate": "2022-07-21T13:15:45.000Z",
+    "graduationDate": null,
+    "courses": [
+      "AdminSis",
+      "Mikrokontroler"
+    ],
+    "address": {
+      "street": "jl. tawangmangu",
+      "city": "Jember",
+      "state": "Indonesia",
+      "zip": "130708"
+    }
+  },
+  {
+    "_id": "65368c32ed4d545ae2c53a0d",
+    "name": "Yuda Bhayangkara",
+    "age": 20,
+    "gpa": 3.5,
+    "fullTime": true,
+    "registerDate": "2022-06-21T14:15:42.000Z",
+    "graduationDate": null,
+    "courses": [
+      "AdminSis",
+      "Mikrokontroler"
+    ],
+    "address": {
+      "street": "jl. tentara",
+      "city": "Jember",
+      "state": "Indonesia",
+      "zip": "130719"
+    }
+  },
+  {
+    "_id": "65368c32ed4d545ae2c53a0e",
+    "name": "Hisyamudin",
+    "age": 20,
+    "gpa": 4,
+    "fullTime": true,
+    "registerDate": "2022-07-21T13:15:45.000Z",
+    "graduationDate": null,
+    "courses": [
+      "AdminSis",
+      "Mikrokontroler"
+    ],
+    "address": {
+      "street": "jl. tawangmangu",
+      "city": "Jember",
+      "state": "Indonesia",
+      "zip": "130708"
+    }
+  },
+  {
+    "_id": "65368c32ed4d545ae2c53a10",
+    "name": "Muhammad Asnawi",
+    "age": 19,
+    "gpa": 3.7,
+    "fullTime": true,
+    "registerDate": "2022-07-21T13:15:45.000Z",
+    "graduationDate": null,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ],
+    "address": {
+      "street": "jl. tawangmangu",
+      "city": "Jember",
+      "state": "Indonesia",
+      "zip": "130708"
+    }
+  },
+  {
+    "_id": "65368c32ed4d545ae2c53a11",
+    "name": "Bachtiar Hermansyah",
+    "age": 20,
+    "gpa": 3.6,
+    "fullTime": true,
+    "registerDate": "2022-08-20T14:15:42.000Z",
+    "graduationDate": null,
+    "courses": [
+      "Data Engineering",
+      "Data Visualization"
+    ],
+    "address": {
+      "street": "jl. mastrip",
+      "city": "Jember",
+      "state": "Indonesia",
+      "zip": "130806"
+    }
+  }
+]
