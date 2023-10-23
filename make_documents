@@ -1,0 +1,237 @@
+// MongoDB Playground
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// The current database to use.
+use('University');
+
+// Type 1 
+var type1Documents = [
+    { "name" : "Jery Nicko", "age": 19, "gpa": 3.8 },
+    { "name" : "Budi Doremi", "age": 19, "gpa": 3.6 },
+    { "name" : "Ahmad Dhani", "age": 20, "gpa": 3.7 },
+    { "name" : "Iwan Fals", "age": 21, "gpa": 4.0 },
+    { "name" : "Raisa Anggiani", "age": 19, "gpa": 3.9 },
+    { "name" : "Dedy Corbuzier", "age": 20, "gpa": 4.0 },
+    { "name" : "Denny Caknan", "age": 19, "gpa": 3.4 },
+    { "name" : "Rocky G. Luffy", "age": 21, "gpa": 4.0 },
+    { "name" : "Baskara Putra", "age": 20, "gpa": 3.5 },
+    { "name" : "Keisya Levronka", "age": 19, "gpa": 3.6 },
+    { "name" : "Gita Wiryawan", "age": 20, "gpa": 4.0 },
+    { "name" : "Ari Lasso", "age": 19, "gpa": 3.7 },
+    { "name" : "Nadin Amizah", "age": 20, "gpa": 3.9 },
+    { "name" : "Tiara Andini", "age": 19, "gpa": 4.0 },
+    { "name" : "Feby Putri", "age": 19, "gpa": 3.8 },
+    { "name" : "Yura Yunita", "age": 20, "gpa": 3.4 },
+    { "name" : "Raim Laode", "age": 19, "gpa": 3.8 },
+    { "name" : "Fiersa Besari", "age": 19, "gpa": 4.0 },
+    { "name" : "Taylor Swift", "age": 19, "gpa": 4.0 },
+    { "name" : "Lalisa", "age": 19, "gpa": 4.0 },   
+];
+
+
+// Create a new document in the collection.
+db.getCollection('students').insertMany(type1Documents);
+
+// Type 2 (its to many, so i'll make imagination data)
+var type2Documents = [
+    {
+        "name": "Muhammad Fajar",
+        "age": 20,
+        "gpa": 3.8,
+        "fullTime": true,
+        "registerDate": ISODate("2022-7-21T13:15:45Z"),
+        "graduationDate": null,
+        "courses": ["AdminSis", "Mikrokontroler"],
+        "address": { "street": "jl. tawangmangu", "city": "Jember", "state": "Indonesia", "zip": "130708" }
+    },
+    {
+        "name": "Muhammad Alwi",
+        "age": 20,
+        "gpa": 3.8,
+        "fullTime": true,
+        "registerDate": ISODate("2022-6-21T14:15:42Z"),
+        "graduationDate": null,
+        "courses": ["AdminSis", "Mikrokontroler"],
+        "address": { "street": "jl. ahmad yani", "city": "Jember", "state": "Indonesia", "zip": "130710" }
+    },
+    {
+        "name": "Yudi Basril",
+        "age": 20,
+        "gpa": 3.0,
+        "fullTime": true,
+        "registerDate": ISODate("2022-4-19T11:15:20Z"),
+        "graduationDate": null,
+        "courses": ["AdminSis", "Mobile"],
+        "address": { "street": "jl. baturaden", "city": "Jember", "state": "Indonesia", "zip": "130714" }
+    },
+    {
+        "name": "Bintang Timur",
+        "age": 20,
+        "gpa": 2.7,
+        "fullTime": false,
+        "registerDate": ISODate("2022-7-01T18:25:42Z"),
+        "graduationDate": null,
+        "courses": ["AdminSis", "JarKom"],
+        "address": { "street": "jl. budi pekerti", "city": "Jember", "state": "Indonesia", "zip": "130830" }
+    },
+    {
+        "name": "Alfan Sulaiman",
+        "age": 20,
+        "gpa": 2.5,
+        "fullTime": false,
+        "registerDate": ISODate("2022-8-10T09:35:45Z"),
+        "graduationDate": null,
+        "courses": ["Jarkom", "Mikrokontroler"],
+        "address": { "street": "jl. indah permata", "city": "Jember", "state": "Indonesia", "zip": "130720" }
+    },
+    {
+        "name": "Hilda Wiyanti",
+        "age": 19,
+        "gpa": 4.0,
+        "fullTime": true,
+        "registerDate": ISODate("2022-04-15T07:01:05Z"),
+        "graduationDate": null,
+        "courses": ["AdminSis", "Mikrokontroler", "Jarkom"],
+        "address": { "street": "jl. werkudoro", "city": "Ponorogo", "state": "Indonesia", "zip": "131412" }
+    },
+    {
+        "name": "Emilia Malik",
+        "age": 20,
+        "gpa": 3.8,
+        "fullTime": true,
+        "registerDate": ISODate("2022-5-11T10:36:45Z"),
+        "graduationDate": null,
+        "courses": ["AdminSis", "Mikrokontroler"],
+        "address": { "street": "jl. tawangmangu", "city": "Jember", "state": "Indonesia", "zip": "130708" }
+    },
+    {
+        "name": "Arvinda Taradika",
+        "age": 19,
+        "gpa": 3.9,
+        "fullTime": true,
+        "registerDate": ISODate("2022-5-21T14:15:39Z"),
+        "graduationDate": null,
+        "courses": ["AdminSis", "Mobile"],
+        "address": { "street": "jl. kenangan", "city": "Jember", "state": "Indonesia", "zip": "130766" }
+    },
+    {
+        "name": "Rahmad Santoso",
+        "age": 21,
+        "gpa": 2.5,
+        "fullTime": true,
+        "registerDate": ISODate("2022-8-30T19:21:45Z"),
+        "graduationDate": null,
+        "courses": ["AdminSis", "JarKom"],
+        "address": { "street": "jl. jembar", "city": "Jember", "state": "Indonesia", "zip": "130712" }
+    },
+    {
+        "name": "Malika Putri",
+        "age": 20,
+        "gpa": 3.9,
+        "fullTime": true,
+        "registerDate": ISODate("2022-6-20T17:15:23Z"),
+        "graduationDate": null,
+        "courses": ["JarKom", "AdminSis"],
+        "address": { "street": "jl. ahmad yani", "city": "Jember", "state": "Indonesia", "zip": "130708" }
+    },
+    {
+        "name": "Heru Rudi",
+        "age": 20,
+        "gpa": 2.9,
+        "fullTime": false,
+        "registerDate": ISODate("2022-7-21T114:15:45Z"),
+        "graduationDate": null,
+        "courses": ["AdminSis", "Mikrokontroler"],
+        "address": { "street": "jl. tawangmangu", "city": "Jember", "state": "Indonesia", "zip": "130708" }
+    },
+    {
+        "name": "Buya Yahya",
+        "age": 20,
+        "gpa": 4.0,
+        "fullTime": true,
+        "registerDate": ISODate("2022-6-30T12:15:42Z"),
+        "graduationDate": null,
+        "courses": ["AdminSis", "Mikrokontroler"],
+        "address": { "street": "jl. merdeka", "city": "Jakarta", "state": "Indonesia", "zip": "130102" }
+    },
+    {
+        "name": "George Salim",
+        "age": 20,
+        "gpa": 3.9,
+        "fullTime": true,
+        "registerDate": ISODate("2022-10-21T13:15:45Z"),
+        "graduationDate": null,
+        "courses": null,
+        "address": { "street": "Fight st.", "city": "New York", "state": "Amerika", "zip": "699009" }
+    },
+    {
+        "name": "Dian Cantika",
+        "age": 20,
+        "gpa": 3.0,
+        "fullTime": true,
+        "registerDate": ISODate("2022-6-21T14:20:42Z"),
+        "graduationDate": null,
+        "courses": null,
+        "address": { "street": "jl. ahmad yani", "city": "Jember", "state": "Indonesia", "zip": "130808" }
+    },
+    {
+        "name": "Aldi Semanggi",
+        "age": 20,
+        "gpa": 3.8,
+        "fullTime": true,
+        "registerDate": ISODate("2022-7-21T13:15:45Z"),
+        "graduationDate": null,
+        "courses": ["AdminSis", "Mikrokontroler"],
+        "address": { "street": "jl. tawangmangu", "city": "Jember", "state": "Indonesia", "zip": "130708" }
+    },
+    {
+        "name": "Yuda Bhayangkara",
+        "age": 20,
+        "gpa": 3.5,
+        "fullTime": true,
+        "registerDate": ISODate("2022-6-21T14:15:42Z"),
+        "graduationDate": null,
+        "courses": ["AdminSis", "Mikrokontroler"],
+        "address": { "street": "jl. tentara", "city": "Jember", "state": "Indonesia", "zip": "130719" }
+    },
+    {
+        "name": "Hisyamudin",
+        "age": 20,
+        "gpa": 4.0,
+        "fullTime": true,
+        "registerDate": ISODate("2022-7-21T13:15:45Z"),
+        "graduationDate": null,
+        "courses": ["AdminSis", "Mikrokontroler"],
+        "address": { "street": "jl. tawangmangu", "city": "Jember", "state": "Indonesia", "zip": "130708" }
+    },
+    {
+        "name": "Muhammad Agus",
+        "age": 20,
+        "gpa": 2.8,
+        "fullTime": false,
+        "registerDate": ISODate("2022-6-21T14:15:42Z"),
+        "graduationDate": null,
+        "courses": ["AdminSis", "Mikrokontroler"],
+        "address": { "street": "jl. danau toba", "city": "Jember", "state": "Indonesia", "zip": "130808" }
+    },
+    {
+        "name": "Muhammad Asnawi",
+        "age": 19,
+        "gpa": 3.7,
+        "fullTime": true,
+        "registerDate": ISODate("2022-7-21T13:15:45Z"),
+        "graduationDate": null,
+        "courses": null,
+        "address": { "street": "jl. tawangmangu", "city": "Jember", "state": "Indonesia", "zip": "130708" }
+    },
+    {
+        "name": "Bachtiar Hermansyah",
+        "age": 20,
+        "gpa": 3.6,
+        "fullTime": true,
+        "registerDate": ISODate("2022-8-20T14:15:42Z"),
+        "graduationDate": null,
+        "courses": null,
+        "address": { "street": "jl. mastrip", "city": "Jember", "state": "Indonesia", "zip": "130806" }
+    }, 
+]:
