@@ -39,7 +39,7 @@ var type2Documents = [
         "age": 20,
         "gpa": 3.8,
         "fullTime": true,
-        "registerDate": ISODate("2022-7-21T13:15:45Z"),
+        "registerDate": ISODate("2022-07-21T13:15:45Z"),
         "graduationDate": null,
         "courses": ["AdminSis", "Mikrokontroler"],
         "address": { "street": "jl. tawangmangu", "city": "Jember", "state": "Indonesia", "zip": "130708" }
@@ -49,7 +49,7 @@ var type2Documents = [
         "age": 20,
         "gpa": 3.8,
         "fullTime": true,
-        "registerDate": ISODate("2022-6-21T14:15:42Z"),
+        "registerDate": ISODate("2022-06-21T14:15:42Z"),
         "graduationDate": null,
         "courses": ["AdminSis", "Mikrokontroler"],
         "address": { "street": "jl. ahmad yani", "city": "Jember", "state": "Indonesia", "zip": "130710" }
@@ -59,7 +59,7 @@ var type2Documents = [
         "age": 20,
         "gpa": 3.0,
         "fullTime": true,
-        "registerDate": ISODate("2022-4-19T11:15:20Z"),
+        "registerDate": ISODate("2022-04-19T11:15:20Z"),
         "graduationDate": null,
         "courses": ["AdminSis", "Mobile"],
         "address": { "street": "jl. baturaden", "city": "Jember", "state": "Indonesia", "zip": "130714" }
@@ -69,7 +69,7 @@ var type2Documents = [
         "age": 20,
         "gpa": 2.7,
         "fullTime": false,
-        "registerDate": ISODate("2022-7-01T18:25:42Z"),
+        "registerDate": ISODate("2022-07-01T18:25:42Z"),
         "graduationDate": null,
         "courses": ["AdminSis", "JarKom"],
         "address": { "street": "jl. budi pekerti", "city": "Jember", "state": "Indonesia", "zip": "130830" }
@@ -79,7 +79,7 @@ var type2Documents = [
         "age": 20,
         "gpa": 2.5,
         "fullTime": false,
-        "registerDate": ISODate("2022-8-10T09:35:45Z"),
+        "registerDate": ISODate("2022-08-10T09:35:45Z"),
         "graduationDate": null,
         "courses": ["Jarkom", "Mikrokontroler"],
         "address": { "street": "jl. indah permata", "city": "Jember", "state": "Indonesia", "zip": "130720" }
@@ -99,7 +99,7 @@ var type2Documents = [
         "age": 20,
         "gpa": 3.8,
         "fullTime": true,
-        "registerDate": ISODate("2022-5-11T10:36:45Z"),
+        "registerDate": ISODate("2022-05-11T10:36:45Z"),
         "graduationDate": null,
         "courses": ["AdminSis", "Mikrokontroler"],
         "address": { "street": "jl. tawangmangu", "city": "Jember", "state": "Indonesia", "zip": "130708" }
@@ -109,7 +109,7 @@ var type2Documents = [
         "age": 19,
         "gpa": 3.9,
         "fullTime": true,
-        "registerDate": ISODate("2022-5-21T14:15:39Z"),
+        "registerDate": ISODate("2022-05-21T14:15:39Z"),
         "graduationDate": null,
         "courses": ["AdminSis", "Mobile"],
         "address": { "street": "jl. kenangan", "city": "Jember", "state": "Indonesia", "zip": "130766" }
@@ -119,7 +119,7 @@ var type2Documents = [
         "age": 21,
         "gpa": 2.5,
         "fullTime": true,
-        "registerDate": ISODate("2022-8-30T19:21:45Z"),
+        "registerDate": ISODate("2022-08-30T19:21:45Z"),
         "graduationDate": null,
         "courses": ["AdminSis", "JarKom"],
         "address": { "street": "jl. jembar", "city": "Jember", "state": "Indonesia", "zip": "130712" }
@@ -129,7 +129,7 @@ var type2Documents = [
         "age": 20,
         "gpa": 3.9,
         "fullTime": true,
-        "registerDate": ISODate("2022-6-20T17:15:23Z"),
+        "registerDate": ISODate("2022-06-20T17:15:23Z"),
         "graduationDate": null,
         "courses": ["JarKom", "AdminSis"],
         "address": { "street": "jl. ahmad yani", "city": "Jember", "state": "Indonesia", "zip": "130708" }
@@ -139,7 +139,7 @@ var type2Documents = [
         "age": 20,
         "gpa": 2.9,
         "fullTime": false,
-        "registerDate": ISODate("2022-7-21T114:15:45Z"),
+        "registerDate": ISODate("2022-07-21T14:15:45Z"),
         "graduationDate": null,
         "courses": ["AdminSis", "Mikrokontroler"],
         "address": { "street": "jl. tawangmangu", "city": "Jember", "state": "Indonesia", "zip": "130708" }
@@ -149,7 +149,7 @@ var type2Documents = [
         "age": 20,
         "gpa": 4.0,
         "fullTime": true,
-        "registerDate": ISODate("2022-6-30T12:15:42Z"),
+        "registerDate": ISODate("2022-06-30T12:15:42Z"),
         "graduationDate": null,
         "courses": ["AdminSis", "Mikrokontroler"],
         "address": { "street": "jl. merdeka", "city": "Jakarta", "state": "Indonesia", "zip": "130102" }
@@ -159,7 +159,7 @@ var type2Documents = [
         "age": 20,
         "gpa": 3.9,
         "fullTime": true,
-        "registerDate": ISODate("2022-10-21T13:15:45Z"),
+        "registerDate": ISODate("2022-08-21T13:15:45Z"),
         "graduationDate": null,
         "courses": null,
         "address": { "street": "Fight st.", "city": "New York", "state": "Amerika", "zip": "699009" }
@@ -169,7 +169,7 @@ var type2Documents = [
         "age": 20,
         "gpa": 3.0,
         "fullTime": true,
-        "registerDate": ISODate("2022-6-21T14:20:42Z"),
+        "registerDate": ISODate("2022-06-21T14:20:42Z"),
         "graduationDate": null,
         "courses": null,
         "address": { "street": "jl. ahmad yani", "city": "Jember", "state": "Indonesia", "zip": "130808" }
@@ -179,7 +179,7 @@ var type2Documents = [
         "age": 20,
         "gpa": 3.8,
         "fullTime": true,
-        "registerDate": ISODate("2022-7-21T13:15:45Z"),
+        "registerDate": ISODate("2022-07-21T13:15:45Z"),
         "graduationDate": null,
         "courses": ["AdminSis", "Mikrokontroler"],
         "address": { "street": "jl. tawangmangu", "city": "Jember", "state": "Indonesia", "zip": "130708" }
@@ -189,7 +189,7 @@ var type2Documents = [
         "age": 20,
         "gpa": 3.5,
         "fullTime": true,
-        "registerDate": ISODate("2022-6-21T14:15:42Z"),
+        "registerDate": ISODate("2022-06-21T14:15:42Z"),
         "graduationDate": null,
         "courses": ["AdminSis", "Mikrokontroler"],
         "address": { "street": "jl. tentara", "city": "Jember", "state": "Indonesia", "zip": "130719" }
@@ -199,7 +199,7 @@ var type2Documents = [
         "age": 20,
         "gpa": 4.0,
         "fullTime": true,
-        "registerDate": ISODate("2022-7-21T13:15:45Z"),
+        "registerDate": ISODate("2022-07-21T13:15:45Z"),
         "graduationDate": null,
         "courses": ["AdminSis", "Mikrokontroler"],
         "address": { "street": "jl. tawangmangu", "city": "Jember", "state": "Indonesia", "zip": "130708" }
@@ -209,7 +209,7 @@ var type2Documents = [
         "age": 20,
         "gpa": 2.8,
         "fullTime": false,
-        "registerDate": ISODate("2022-6-21T14:15:42Z"),
+        "registerDate": ISODate("2022-06-21T14:15:42Z"),
         "graduationDate": null,
         "courses": ["AdminSis", "Mikrokontroler"],
         "address": { "street": "jl. danau toba", "city": "Jember", "state": "Indonesia", "zip": "130808" }
@@ -219,7 +219,7 @@ var type2Documents = [
         "age": 19,
         "gpa": 3.7,
         "fullTime": true,
-        "registerDate": ISODate("2022-7-21T13:15:45Z"),
+        "registerDate": ISODate("2022-07-21T13:15:45Z"),
         "graduationDate": null,
         "courses": null,
         "address": { "street": "jl. tawangmangu", "city": "Jember", "state": "Indonesia", "zip": "130708" }
@@ -229,9 +229,12 @@ var type2Documents = [
         "age": 20,
         "gpa": 3.6,
         "fullTime": true,
-        "registerDate": ISODate("2022-8-20T14:15:42Z"),
+        "registerDate": ISODate("2022-08-20T14:15:42Z"),
         "graduationDate": null,
         "courses": null,
         "address": { "street": "jl. mastrip", "city": "Jember", "state": "Indonesia", "zip": "130806" }
-    }, 
-]:
+    }
+];
+
+// Create a new document in the collection.
+db.getCollection('students').insertMany(type2Documents);
