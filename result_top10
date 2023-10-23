@@ -1,0 +1,80 @@
+[
+  {
+    "_id": {
+      "$oid": "65368c32ed4d545ae2c539ed"
+    },
+    "name": "Iwan Fals",
+    "gpa": 4
+  },
+  {
+    "_id": {
+      "$oid": "65368c32ed4d545ae2c539fb"
+    },
+    "name": "Fiersa Besari",
+    "gpa": 4
+  },
+  {
+    "_id": {
+      "$oid": "65368c32ed4d545ae2c539fd"
+    },
+    "name": "Lalisa",
+    "gpa": 4
+  },
+  {
+    "_id": {
+      "$oid": "65368c32ed4d545ae2c539f1"
+    },
+    "name": "Rocky G. Luffy",
+    "gpa": 4
+  },
+  {
+    "_id": {
+      "$oid": "65368c32ed4d545ae2c539ef"
+    },
+    "name": "Dedy Corbuzier",
+    "gpa": 4
+  },
+  {
+    "_id": {
+      "$oid": "65368c32ed4d545ae2c539f4"
+    },
+    "name": "Gita Wiryawan",
+    "gpa": 4
+  },
+  {
+    "_id": {
+      "$oid": "65368c32ed4d545ae2c53a09"
+    },
+    "name": "Buya Yahya",
+    "gpa": 4,
+    "fullTime": true,
+    "registerDate": {
+      "$date": "2022-06-30T12:15:42Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65368c32ed4d545ae2c53a03"
+    },
+    "name": "Hilda Wiyanti",
+    "gpa": 4,
+    "fullTime": true,
+    "registerDate": {
+      "$date": "2022-04-15T07:01:05Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65368c32ed4d545ae2c539fc"
+    },
+    "name": "Taylor Swift",
+    "gpa": 4
+  },
+  {
+    "_id": {
+      "$oid": "65368c32ed4d545ae2c539f7"
+    },
+    "name": "Tiara Andini",
+    "gpa": 4
+  }
+]
